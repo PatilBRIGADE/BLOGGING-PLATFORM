@@ -1,0 +1,246 @@
+.block
+{
+    display: block;
+}
+.hidden
+{
+    display: none;
+}
+.clear
+{
+    clear: both;
+}
+.left
+{
+    float: left;
+}
+.right
+{
+    float: right;
+}
+.center-relative
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.center-text
+{
+    text-align: center !important;
+}
+.absolute
+{
+    position: absolute;
+}
+.fixed
+{
+    position: fixed;
+}
+.relative
+{
+    position: relative;
+}
+blockquote:before 
+{
+    content: '\201C';
+    font-size: 180px;
+    line-height: 0;
+    font-family: 'Montserrat', sans-serif, Arial;
+    vertical-align: -65px;
+    color: #0697ae;
+    text-align: center;
+    display: block;
+}
+blockquote
+{
+    margin-top: 110px;
+    margin-bottom: 60px;
+    font-family: 'Montserrat', sans-serif, Arial;
+    font-size: 22px;
+    line-height: 35px;
+    color: #b0c2c2;
+}
+blockquote.inline-blockquote
+{
+    width: 395px;
+    float: left;
+    margin-left: -170px;
+    margin-right: 70px;
+}
+.wrap-blockquote
+{
+    display: inline;
+}
+iframe
+{
+    width: 100%;
+}
+a.button
+{
+    display: inline-block;
+    border: 3px solid;
+    text-align: center;
+    padding: 15px 40px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+a.button:active
+{
+    position: relative;
+    top: 1px;	
+}
+h1,h2,h3,h4,h5,h6
+{
+    padding: 20px 0;
+}
+h1
+{
+    font-size: 38px;
+    line-height: 38px;    
+}
+h2
+{
+    font-size: 34px;    
+    line-height: 34px;    
+}
+h3
+{
+    font-size: 32px;  
+    line-height: 32px;    
+}
+h4
+{
+    font-size: 30px;    
+}
+h5
+{
+    font-size: 28px;   
+}
+h6
+{
+    font-size: 26px;    
+}
+em
+{
+    font-style: italic;
+}
+ol
+{
+    list-style-type: decimal;
+}
+pre
+{
+    word-wrap: break-word;
+}
+sub
+{
+    vertical-align: sub;
+    font-size: smaller;
+}
+
+/* COLUMNS */
+
+.one,  .one_half{
+    margin-right: 100px;
+    float: left;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.last{
+    margin-right: 0 !important;
+    clear: right;
+}
+
+.one{
+    float: none;
+    display: block;
+    clear: both;
+    margin-right: 0;
+}
+
+.one_half{
+    width: 400px;    
+}
+
+.one img,  .one_half img{
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    width: auto;	
+}
+
+.team-holder .one
+{
+    margin: 0;
+}
+
+.team-holder .one_half
+{
+    width: 50%;
+    width: calc(100% / 2);   
+    margin: 0;
+}
+
+/* MENU */
+
+/* Mobile first layout SmartMenus Core CSS (it's not recommended editing these rules)
+   You need this once per page no matter how many menu trees or different themes you use.
+-------------------------------------------------------------------------------------------*/
+
+.sm,.sm ul,.sm li{display:block;list-style:none;margin:0;padding:0;line-height:normal;direction:ltr;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.sm-rtl,.sm-rtl ul,.sm-rtl li{direction:rtl;text-align:right;}
+.sm>li>h1,.sm>li>h2,.sm>li>h3,.sm>li>h4,.sm>li>h5,.sm>li>h6{margin:0;padding:0;}
+.sm ul{display:none;}
+.sm li,.sm a{position:relative;}
+.sm a{display:block;}
+.sm a.disabled{cursor:not-allowed;}
+.sm:after{content:"\00a0";display:block;height:0;font:0px/0 serif;clear:both;visibility:hidden;overflow:hidden;}
+.sm,.sm *,.sm *:before,.sm *:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+
+
+
+
+/* WP DEFAULT CLASSES */
+/* Text meant only for screen readers. */
+
+
+
+.cbp-bislideshow {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    padding: 0;
+    margin: 0;
+}
+
+.cbp-bislideshow li {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+
+/* If background-size supported we'll add the images to the background of the li */
+
+/* ...and hide the images */
+
+.cbp-bislideshow li img {
+    display: block;
+    width: 100%;
+}
+
+/* Fallback */

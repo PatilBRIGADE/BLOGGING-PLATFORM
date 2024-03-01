@@ -1,0 +1,31 @@
+.carousel_pagination {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 160px;
+    z-index: 1;
+    position: relative;
+}
+
+.carousel_pagination a {
+    margin: 0 0 0 9px;
+    float: left;
+}
+
+.carousel_pagination a:first-child {
+    margin: 0;
+}
+
+.carousel_pagination a {
+    width: 18px;
+    height: 18px;
+    border-radius: 90%;
+    display: block;
+    cursor: pointer;
+    text-indent: -9999px;
+}
+
+.caroufredsel_wrapper {
+    z-index: 1 !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+}
